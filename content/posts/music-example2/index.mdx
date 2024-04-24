@@ -1,0 +1,50 @@
+---
+title: How I created this blog
+date: 2024-04-22
+tags:
+  - Software Engineering
+---
+
+## Coding from scratch
+I wanted to create my own blog for a long time.
+I just wanted to put my ideas somewhere.
+While coding a website from scratch is fine, inventing the wheel can be time consuming.
+
+## GPT help
+I asked Microsoft Copilot in Edge the following:
+```
+```
+And it suggested me to use:
+1. Hugo
+2. Jekyll
+3. Gatsby
+
+I used Gatsby because it had some great project templates, and it supported working in React.
+
+I then chose from their template gallery a minimal blog template._createMdxContent
+This way, the blog will be customizable and I will be able to add fancy react components by my own.
+
+Then I just:
+1. Installed Gatsby with the minimal blog template
+2. Started writing some posts.
+
+Now the code is running nicely in http://localhost:8000/
+
+But I want this blog to be reached by typing http://www.aviveldan.net/
+
+Therefore I decided to:
+1. Buy the domain aviveldan.net
+2. Deploy the code to Azure as a Static web app.
+
+For 2 I could choose different cloud providers, small to big but I have 150$ credits in azure to spend spend so...
+
+
+So now I want my day to day flow to be:
+1. Write post in Markdown
+2. Commit - push (no PR as I work alone)
+3. Deploy to staging
+4. If all looks good, no typos - deploy to prod.
+
+Additional requirements-
+1. Easily generate facebook, linkedin, instagram posts that will share my work, depending on what I prefer.
+2. Users will be able to contact me regarding some post using email/facebook/linkedin easily
