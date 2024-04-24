@@ -11,12 +11,27 @@ I just wanted to put my ideas somewhere.
 While coding a website from scratch is fine, inventing the wheel can be time consuming.
 
 ## GPT help
-I asked Microsoft Copilot in Edge the following:
+I asked Microsoft Copilot to help me summarize my idea for a blog that will have music, coding, etc and I will be also able to write some custom components.
+This was it's response:
+```
+Your website idea is a personal blog that serves as a creative and professional portfolio. Here's a summary of the concept:
 
-And it suggested me to use:
-1. Hugo
-2. Jekyll
-3. Gatsby
+- *Music Section*: You'll showcase your original songs with embedded YouTube videos and write music-related guides.
+- *Tech Section*: You'll link to your GitHub for project visibility, share top projects, and provide tech guides.
+- *Professional Networking*: You'll integrate your LinkedIn activity and profile link for networking and career opportunities.
+
+Given your technical background and the need for easy content updates, I suggest using a *static site generator* like *Hugo* or *Jekyll. These tools are great for blogs and personal websites because they're lightweight, fast, and you can host them on platforms like **GitHub Pages* or *Azure Static Web Apps*.
+
+Here's a simple plan to get started:
+
+1. *Choose a Static Site Generator*: Hugo and Jekyll are popular choices. They have themes that are easy to customize and are well-suited for blogs.
+2. *Set Up Your Project*: Initialize your site with the chosen generator. Customize the theme to fit your personal brand and content structure.
+3. *Content Management*: Write your content in Markdown files, which are straightforward to edit and update. For dynamic content like LinkedIn activity, you can use APIs to fetch and display this data.
+4. *Hosting*: Deploy your site to Azure Static Web Apps. Your Azure credits will cover the costs, and it integrates well with GitHub for CI/CD.
+5. *Continuous Deployment*: Set up a GitHub Actions workflow to automatically build and deploy your site whenever you push new content.
+
+This approach leverages your existing skills and resources, and it's scalable for future growth. Plus, with Azure and GitHub, you'll have a robust deployment pipeline that makes updating content a breeze. Happy coding and content creation! 🎶💻
+```
 
 I used Gatsby because it had some great project templates, and it supported working in React.
 
@@ -47,3 +62,4 @@ So now I want my day to day flow to be:
 Additional requirements-
 1. Easily generate facebook, linkedin, instagram posts that will share my work, depending on what I prefer.
 2. Users will be able to contact me regarding some post using email/facebook/linkedin easily
+
