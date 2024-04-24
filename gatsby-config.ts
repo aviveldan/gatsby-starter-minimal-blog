@@ -15,7 +15,7 @@ const config: GatsbyConfig = {
     siteDescription: `I'm Aviv, a software engineer and a musician. I write about software, music, and everything in between.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `@aviveldan`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -35,13 +35,25 @@ const config: GatsbyConfig = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/aviveldan/`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Instagram`,
+            url: `https://www.instagram.com/aviveldan/`,
           },
+          {
+            name: `Facebook`,
+            url: `https://www.facebook.com/aviv.eldan/`,
+          },
+          {
+            name: `GitHub`,
+            url: `https://github.com/aviveldan/gatsby-starter-minimal-blog`,
+          },
+          {
+            name: `YouTube`,
+            url: `https://www.youtube.com/channel/UC4DGfTNItd8h7rYLXZGMDig`,
+          }
         ],
       },
     },
