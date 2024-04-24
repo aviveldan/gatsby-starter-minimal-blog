@@ -43,10 +43,6 @@ const config: GatsbyConfig = {
             url: `https://www.instagram.com/aviveldan/`,
           },
           {
-            name: `Facebook`,
-            url: `https://www.facebook.com/aviv.eldan/`,
-          },
-          {
             name: `GitHub`,
             url: `https://github.com/aviveldan/gatsby-starter-minimal-blog`,
           },
