@@ -11,7 +11,7 @@ const config: GatsbyConfig = {
     siteTitle: `Aviv`,
     siteTitleAlt: `Aviv's blog`,
     siteHeadline: `Aviv's blog - everything I create is here.`,
-    siteUrl: `https://aviv.blog`,
+    siteUrl: `https://www.aviv.blog`,
     siteDescription: `I'm Aviv, a software engineer and a musician. I write about software, music, and everything in between.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
